@@ -282,7 +282,7 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
 }
 .footer-logo-link-white {
