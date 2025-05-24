@@ -24,6 +24,10 @@ address {
   font-style: normal;
 }
 
+img {
+  display: block;
+}
+
 p,
 h1,
 h2,
@@ -44,9 +48,19 @@ h6 {
 
 /* ============ */
 
-header {
+.header {
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+.header .container {
+  align-items: center;
+  display: flex;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
 }
 
 .header-logo-link-blue {
@@ -57,6 +71,7 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .header-logo-link-black {
@@ -64,6 +79,8 @@ header {
 }
 
 .header-menu-list {
+  display: flex;
+  gap: 40px;
 }
 
 .header-menu-item {
@@ -85,7 +102,13 @@ header {
 
 /* address */
 
+.addres {
+  margin-left: auto;
+}
+
 .address-list {
+  display: flex;
+  gap: 40px;
 }
 .address-item {
 }
@@ -133,6 +156,11 @@ header {
   background: #4d5ae5;
   display: block;
   margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-section-button:hover,
@@ -150,9 +178,12 @@ header {
 }
 
 .solutions-section-list {
+  display: flex;
+  gap: 24px;
 }
 
 .solutions-section-item {
+  width: calc((100% - 24px * 3) / 4);
 }
 
 .solutions-section-subtitle {
@@ -191,6 +222,8 @@ header {
 }
 
 .team-section-list {
+  display: flex;
+  gap: 24px;
 }
 
 .team-section-item {
@@ -238,13 +271,20 @@ header {
 }
 
 .portfolio-section-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-section-item {
+  width: calc((100% - 24px * 2) / 3);
 }
 
 .portfolio-section-text-box {
-  padding: 32px 226px 64px 16px;
+  width: 360px;
+  height: 120px;
+  padding: 32px 16px;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
