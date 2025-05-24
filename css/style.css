@@ -49,8 +49,7 @@ h6 {
 /* ============ */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -62,7 +61,7 @@ h6 {
 .header-menu {
   display: flex;
   align-items: center;
-  padding: 24px 0 24px;
+  /* padding: 24px 0 24px; */
 }
 
 .header-logo-link-blue {
