@@ -7,6 +7,9 @@ body {
 
 ul {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {
@@ -21,9 +24,29 @@ address {
   font-style: normal;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 /* ============ */
 
 header {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-logo-link-blue {
@@ -83,6 +106,8 @@ header {
 
 .hero-section {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-section-title {
   font-weight: 700;
@@ -91,6 +116,9 @@ header {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
   /* &::selection {
     background-color: red;
   } */
@@ -103,6 +131,8 @@ header {
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-section-button:hover,
@@ -113,6 +143,8 @@ header {
 /* solutions */
 
 .solutions-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .solutions-section-title {
 }
@@ -129,6 +161,7 @@ header {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .solutions-section-paragraph {
@@ -142,6 +175,8 @@ header {
 
 .team-section {
   background: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-section-title {
@@ -152,6 +187,7 @@ header {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .team-section-list {
@@ -161,6 +197,10 @@ header {
   background: #fff;
 }
 
+.team-section-text-box {
+  padding: 32px 16px;
+}
+
 .team-section-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -168,6 +208,7 @@ header {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-section-paragraph {
@@ -181,6 +222,8 @@ header {
 /* portfolio */
 
 .portfolio-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-section-title {
@@ -191,6 +234,7 @@ header {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .portfolio-section-list {
@@ -199,12 +243,20 @@ header {
 .portfolio-section-item {
 }
 
+.portfolio-section-text-box {
+  padding: 32px 226px 64px 16px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+}
+
 .portfolio-section-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-section-paragraph {
@@ -218,6 +270,8 @@ header {
 
 footer {
   background: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo-link-blue {
@@ -228,6 +282,8 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: block;
+  margin-bottom: 16px;
 }
 .footer-logo-link-white {
   color: #f4f4fd;
@@ -238,4 +294,5 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
