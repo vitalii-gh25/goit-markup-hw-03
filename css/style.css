@@ -62,7 +62,7 @@ h6 {
 .header-menu {
   display: flex;
   align-items: center;
-  padding: 24px 0;
+  padding: 24px 0 24px;
 }
 
 .header-logo-link-blue {
@@ -162,7 +162,7 @@ h6 {
   height: 56px;
   padding: 16px 32px;
   border: none;
-  border-radius: 0px 0px 4px 4px;
+  border-radius: 4px;
 }
 
 .hero-section-button:hover,
@@ -242,11 +242,12 @@ h6 {
 }
 
 .team-section-item {
+  border-radius: 0px 0px 4px 4px;
   background: #fff;
 }
 
 .team-section-text-box {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .team-section-subtitle {
@@ -303,6 +304,7 @@ h6 {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
 }
 
 .portfolio-section-subtitle {
